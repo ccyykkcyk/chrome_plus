@@ -11,7 +11,6 @@ HMODULE hInstance;
 
 #include "hijack.h"
 #include "utils.h"
-#include "TabBookmark.h"
 #include "portable.h"
 #include "PakPatch.h"
 #include "appid.h"
