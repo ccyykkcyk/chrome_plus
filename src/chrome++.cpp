@@ -28,9 +28,6 @@ void ChromePlus()
     // 便携化补丁
     MakeGreen();
 
-    // 标签页，书签，地址栏增强
-    TabBookmark();
-
     // 给pak文件打补丁
     PakPatch();
 }
@@ -82,7 +79,7 @@ void InstallLoader()
 }
 #define EXTERNC extern "C"
 
-// 
+//
 EXTERNC __declspec(dllexport) void shuax()
 {
 }
